@@ -14,5 +14,13 @@ body{
      margin-bottom: 5%;
 }
 h2{
-     font-size:2vw;
+     font-size:3vw;
+}
+
+.bottomText{
+     margin-top:35%;
+     color: white;
+     background-color: rgb(33, 69, 32);
+     padding: 4vw;
+     
 }
