@@ -25,11 +25,7 @@ $inspect(todoList);
 </script>
 <form onsubmit={addItem}>
 <input type="text" bind:value={todoItem}>
-<<<<<<< HEAD
 <button type="submit">Put down!</button>
-=======
-<button type="submit">Write Down</button>
->>>>>>> origin/main
 </form>
 
 <ul>
@@ -70,11 +66,7 @@ $inspect(todoList);
           text-align: center;
      }
 span.done{
-<<<<<<< HEAD
      color: rgb(116, 42, 184);
-=======
-     color: darkgreen;
->>>>>>> origin/main
      text-decoration: line-through;
 }
 </style>
