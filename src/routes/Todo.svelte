@@ -25,7 +25,7 @@ $inspect(todoList);
 </script>
 <form onsubmit={addItem}>
 <input type="text" bind:value={todoItem}>
-<button type="submit">Add</button>
+<button type="submit">Put down!</button>
 </form>
 
 <ul>
@@ -39,7 +39,7 @@ $inspect(todoList);
      {/each}
 </ul>
 {#if (todoList.length > 0)}
-<button type="button" onclick={nuke}> Erase</button>
+<button type="button" onclick={nuke}> Get Rid of!</button>
 {/if}
 
 <style>
@@ -54,7 +54,7 @@ $inspect(todoList);
           text-align: center;
      }
 span.done{
-     color: crimson;
+     color: rgb(116, 42, 184);
      text-decoration: line-through;
 }
 </style>

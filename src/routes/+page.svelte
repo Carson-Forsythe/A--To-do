@@ -3,9 +3,13 @@
 import Todo from './Todo.svelte'
 </script>
 <div class="header">
-<h1>To Do List</h1>
+<h1>New Urgent Purple To Do List</h1>
 </div>
-<h2>What Do You Need To Do Today?</h2>
+<h2>Hurry Up! You've got stuff to do!</h2>
 
 
 <Todo />
+
+<div class="bottomer">
+     <h1>Important Things to Do</h1>
+</div>
