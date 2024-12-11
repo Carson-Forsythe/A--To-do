@@ -25,7 +25,11 @@ $inspect(todoList);
 </script>
 <form onsubmit={addItem}>
 <input type="text" bind:value={todoItem}>
+<<<<<<< HEAD
 <button type="submit">Put down!</button>
+=======
+<button type="submit">Write Down</button>
+>>>>>>> origin/main
 </form>
 
 <ul>
@@ -43,18 +47,34 @@ $inspect(todoList);
 {/if}
 
 <style>
+
      input[type="text"]{
           font-size: 105%;
+          
+
+     }
+
+     input[type="checkbox"]{
+          height: 30px;
+          width: 30px;
+
+
+
      }
      button{
-          font-size: 105%;
+          font-size: 100%;
      }
      ul{
+          font-size: 135%;
           list-style: none;
           text-align: center;
      }
 span.done{
+<<<<<<< HEAD
      color: rgb(116, 42, 184);
+=======
+     color: darkgreen;
+>>>>>>> origin/main
      text-decoration: line-through;
 }
 </style>
